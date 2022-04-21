@@ -2,9 +2,9 @@ package com.example;
 
 import java.io.StringWriter;
 
-import javax.xml.bind.JAXBContext;
-
 import com.example.generated.Dummy;
+
+import jakarta.xml.bind.JAXBContext;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
