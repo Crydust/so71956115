@@ -49,6 +49,7 @@
 				</executions>
 				<configuration>
 					<packageName>com.example.generated</packageName>
+					<!--  moving to jakarta means that jaxb2-basics (plugins) is broken -->
 <!--					<arguments>-->
 <!--						<argument>-Xequals</argument>-->
 <!--						<argument>-XhashCode</argument>-->
