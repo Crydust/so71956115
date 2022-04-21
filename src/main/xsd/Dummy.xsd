@@ -2,6 +2,10 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 	<xs:element name="Dummy">
 		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="el" type="xs:string"/>
+			</xs:sequence>
+			<xs:attribute name="attr" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
 </xs:schema>
